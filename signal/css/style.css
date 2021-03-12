@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	margin: 0;
+	padding:0;
+}
+
+.hed
+{
+	width: 100%;
+	height: 84px;
+	background-color: #fff;
+}
+.hed img
+{
+	padding-top: 12px;
+	padding-left: 65px;
+}
+.hed ul
+{
+	float: right;
+	display: flex;
+	padding-top: 22px;
+	padding-right: 100px;
+}
+.hed ul li
+{
+	list-style: none;
+	padding: 10px;
+	margin: 1px;
+}
+.hed ul li a
+{
+	list-style: inline-block;
+	text-decoration: none;
+	color: grey;
+	font-size: 16px;
+	font-weight: 600;
+	font-family: 'Palanquin', sans-serif;
+}
+.hed ul li a:hover
+{
+	color: blue;
+}
+.hed .en
+{
+	background-color: #fff;
+	padding: 10px 20px;
+	color: #111;
+    margin-left: -15px;
+}
+.hed .en:hover
+{
+	background-color: #faf7f8;
+}
+
+.sec{
+	width: 100%;
+	height: 600px;
+	background-color: #84b6e3;
+}
+.spk h1
+{
+	font-size: 55px;
+	padding-top: 12%;
+	padding-left: 7%;
+	font-weight: bold;
+	font-family: 'Archivo Black', sans-serif;
+}
+.spk p
+{
+	color: #333;
+	font-size: 22px;
+	padding-left: 7%;
+	padding-top: 22px;
+	font-family: 'Palanquin', sans-serif;
+}
+.sec a
+{
+	margin-left: 7%;
+	list-style: none;
+	text-decoration: none;
+	background-color: #fff;
+	padding: 16px 16px;
+	border-radius: 6px;
+}
+.sec a span
+{
+	font-size: 24px;
+	text-align: center;
+	color: #3297a8;
+}
